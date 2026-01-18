@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MainHeader from '../components/layout/headers/MainHeader.astro';
+import Footer from '../components/layout/Footer.astro';
+
+import Card from '../components/ui/Card.astro';
+---
+
+<Layout pageTitle="Quiénes somos">
+    <MainHeader />
+    <div id="main-content">
+        <div class="*:w-full *:text-left *:items-start">
+            <Card>
+                <h1>Nuestra historia</h1>
+                <p>Todo empezó en 2015 con un grupo de 2 personas, Yeray y Aritz, que querían crear una empresa para combatir en contra de las empresas anti-consumidor y ayudar a los clientes a sacar el máximo potencial de sus dispositivos.</p>
+                <p>Pronto se unieron varios miembros más, como Piero, Julen, Aitor y Erik, y con su ayuda conseguimos expandir nuesto negocio y empezar a realizar varias mejoras, entre ellas, una gran campaña que nos ayudaría enormemente, tanto a nosotros como al planeta.</p>
+                <p>Esta campaña se realizó con el propósito de remodelar nuestra forma de trabajar y reciclar componentes para ayudar al medioambiente y reducir los residuos y sacar aún más provecho de nuestros dispositivos. Mientras remodelabamos nuestros métodos de empleo, decidimos crear un software para apoyarnos en nuestra misión y automatizar muchas de nuestras tareas para hacer nuestro trabajo más eficiente.</p>
+            </Card>
+        </div>
+    </div>
+</Layout>
